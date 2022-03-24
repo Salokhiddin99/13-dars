@@ -80,9 +80,14 @@
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	margin-left: 260px;
-	margin-top: -25px;
 	border-radius: 6px;
+	left: 23%;
+	bottom: 16%;
+	z-index: 10;
+}
+.button:hover {
+	bottom: 17%;
+	cursor: pointer;
 }
 .button_link {
 	text-decoration: none;
@@ -91,7 +96,6 @@
 	font-family: 'calibri';
 	font-weight: 400;
 }
-
 .slider_span {
 	width: 85px;
 	height: 85px;
@@ -106,4 +110,23 @@
 	border-bottom: 10px solid transparent;
 	border-top: 10px solid transparent;
 	position: absolute;
+}
+.left {
+	border-right: 15px solid #855352;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	position: absolute;
+}
+.slider_span:hover {
+	background-color: #FFFFFF;
+}
+.left_slider {
+	position: absolute;
+    bottom: 286px;
+	left: 165px;
+}
+.right_slider {
+	position: absolute;
+	left: 1000px;
+	bottom: 286px;
 }
